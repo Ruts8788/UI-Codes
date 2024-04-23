@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav
+{
+    background-color:mediumaquamarine;
+    color:black;
+    display:flex;
+    justify-content: space-around;
+    align-items:centre;
+
+}
+.logo
+{
+    padding: 10px,300px;
+    letter-spacing:5px;
+    font-size: 10;
+    cursor: pointer;
+    align-items: center;
+}
+.navlinks{
+    float: right;
+    padding-left: 30px;
+    cursor: pointer;
+    border: 20px;
+    text-decoration: none;
+}
+.navlinks ul li{
+    display:inline-block;
+    padding-right:30px;
+    cursor:pointer;
+    text-decoration: none;
+
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20;
+    cursor: pointer;
+}
+.navborder::after
+{
+    content:"";
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition:width 0.3s ease;
+}
+.navborder::after{
+    width: 100%;
+}
+.container{
+    background-image: linear-gradient(to top,rgba(145,146,122,0.62),rgba(145,146,122,1)),url("burgur.jpg");
+    background-size: cover;
+    min-height: 100%;
+    height: 300px;
+    text-align: center;
+}
+.container h1{
+    padding-top: 120px;
+    color: white;
+    font-size: 60;
+}
+.container p{
+    color: white;
+    padding-top: 50px;
+}
+.order{
+    background-color: burlywood;
+    padding: 15px 10px;
+    border: none;
+    font-size: 15;
+    border-radius: 3px;
+    margin-top: 60px;
+    transition: 0.2s ease;
+
+}
+.order a{
+    width:30%;
+    height: 10%;
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact
+{
+     width: 10px;
+     height: 10px;
+     font-size:small;
+}
